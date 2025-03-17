@@ -16,7 +16,7 @@ Pandas, SciPy y Matplotlib**.
 Si estás buscando una manera estructurada y práctica de aprender estadística aplicada con
 Python, este repositorio es para ti. 🚀
 
-## Dependencias y Gestión del Proyecto
+## Dependencias y gestión del proyecto
 
 Para asegurar una instalación sencilla y reproducible, este proyecto utiliza **Poetry**
 para la gestión de dependencias. Poetry facilita la instalación y el mantenimiento del
