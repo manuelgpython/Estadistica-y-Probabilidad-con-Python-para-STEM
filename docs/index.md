@@ -1,4 +1,6 @@
-# Estadística y Probabilidad con Python para STEM
+# Inicio
+
+## Estadística y Probabilidad con Python para STEM
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/500c484a-a1a2-4e8c-8f65-39a20664ef93" alt="Portada del libro.">

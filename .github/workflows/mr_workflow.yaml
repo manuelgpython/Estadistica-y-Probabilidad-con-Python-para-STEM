@@ -15,7 +15,7 @@ env:
 # Define jobs in this workflow
 jobs:
   setup-lint-test:
-    name: Setup, Lint, Test, Security the Code
+    name: Setup and Lint the Code
     runs-on: ubuntu-latest
 
     steps:
@@ -23,16 +23,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Set up the Python environment and install dependencies for testing and
-      # linting
+      # Step 2: Set up the Python environment and install dependencies for linting
       - name: Setup Python environment and dependencies
         uses: ./.github/actions/setup-python-env
         with:
           src-python-version: ${{ env.SRC_PYTHON_VERSION }}
           dependencies: "lint"
 
-      # Step 3: Run code linting to check code style, syntax, and quality using Black,
-      # MyPy and Flake8
+      # Step 3: Run code linting
       - name: Check code format, syntax and quality
         uses: ./.github/actions/lint-code
         with:

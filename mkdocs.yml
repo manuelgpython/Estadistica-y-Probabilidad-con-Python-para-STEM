@@ -4,8 +4,8 @@ repo_name: Estadistica-y-Probabilidad-con-Python-para-STEM
 repo_url: https://github.com/manuelgpython/Estadistica-y-Probabilidad-con-Python-para-STEM
 
 theme:
+  language: es
   name: "material"
-  locale: es
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
