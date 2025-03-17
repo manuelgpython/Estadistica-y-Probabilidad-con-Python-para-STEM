@@ -8,7 +8,7 @@ on:
 # Set up environment variables
 env:
   # Folder where the project code is located
-  SRC_PROJECT_FOLDER: "src"
+  SRC_PROJECT_FOLDER: "."
   # Folder where test files are located
   SRC_PROJECT_TESTS: "tests"
   # Python version to use
