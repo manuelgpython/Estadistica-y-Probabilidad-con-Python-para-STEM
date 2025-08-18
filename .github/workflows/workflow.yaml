@@ -23,7 +23,7 @@ jobs:
     steps:
       # Step 1: Checkout the repository code
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Step 2: Set up the Python environment and install dependencies for linting
       - name: Setup Python environment and dependencies
@@ -49,7 +49,7 @@ jobs:
     steps:
       # Step 1: Checkout the repository code
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Step 2: Set up the Python environment and install dependencies for documentation
       - name: Setup Python environment and dependencies
@@ -78,7 +78,7 @@ jobs:
     steps:
       # Step 1: Checkout the repository code, specifically the 'gh-pages' branch
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: gh-pages
 
