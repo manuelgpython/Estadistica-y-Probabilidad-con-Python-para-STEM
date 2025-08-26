@@ -88,7 +88,7 @@ jobs:
 
       # Step 3: Upload the built documentation as an artifact
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: "."
 
